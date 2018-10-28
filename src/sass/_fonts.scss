@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.eot');
+  src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('../fonts/Montserrat-Regular.woff') format('woff'),
+       url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.eot');
+  src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+       url('../fonts/Montserrat-Bold.woff') format('woff'),
+       url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+     url('../fonts/OpenSans-Regular.woff') format('woff'),
+     url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Semibold.eot');
+  src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
+  url('../fonts/OpenSans-Semibold.woff') format('woff'),
+  url('../fonts/OpenSans-Semibold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Bold.eot');
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+  url('../fonts/OpenSans-Bold.woff') format('woff'),
+  url('../fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Extrabold.eot');
+  src: url('../fonts/OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Extrabold.woff2') format('woff2'),
+  url('../fonts/OpenSans-Extrabold.woff') format('woff'),
+  url('../fonts/OpenSans-Extrabold.ttf') format('truetype');
+  font-weight: 800;
+}

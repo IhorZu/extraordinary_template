@@ -1,0 +1,94 @@
+.header {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 78px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #252525;
+	font-family: $font_montserrat;
+	font-weight: 700;
+
+	&__logo-wrap {
+		padding-left: 32px;
+	}
+
+	&__nav {
+		height: 100%;
+		display: flex;
+
+		@media screen and (max-width: 567px) {
+			display: none;
+		}
+	}
+
+	&__nav-btn {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #ffffff;
+		cursor: pointer;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: -1px;
+			height: 100%;
+			border-left: 1px solid rgba(235,235,235, .1);
+		}
+
+		&:hover {
+			background: #1e1e1e;
+			box-shadow: inset 0 1px 4px rgba(0,0,0, .67);
+		}
+
+		&_share {
+			width: 108px;
+			font-size: 14px;
+			cursor: default;
+
+			&:before {
+				display: none;
+			}
+		}
+
+		&_search {
+			width: 78px;
+
+			&:hover,
+			.header__nav-btn_share:hover ~ & {
+
+				&:before {
+					display: none;
+				}
+			}
+		}
+
+		&_login {
+			width: 81px;
+
+			&:hover,
+			.header__nav-btn_search:hover ~ & {
+
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
+
+	&__nav-link {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__nav-icon {
+		fill: #525252;
+	}
+}

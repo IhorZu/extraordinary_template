@@ -1,0 +1,47 @@
+body {
+  position: relative;
+  min-width: 320px;
+  height: 100%;
+  font-family: $font_open_sans;
+  letter-spacing: -.02em;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+[hidden] {
+  display: none;
+}
+
+.main {
+  position: relative;
+  margin: 30px 30px 100px 100px;
+  transition: opacity .15s;
+
+  @media screen and (max-width: 580px) {
+    margin: 20px 20px 0 90px;
+  }
+
+  @media screen and (max-width: 414px) {
+    margin-left: 20px;
+  }
+
+  &_animated {
+    opacity: 0;
+  }
+}
+
+.grid {
+  margin-right: -30px;
+
+  @media screen and (max-width: 580px) {
+    margin-right: -20px;
+  }
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

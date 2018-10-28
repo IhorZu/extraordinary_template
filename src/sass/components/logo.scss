@@ -1,0 +1,21 @@
+.logo {
+  display: flex;
+  align-items: center;
+  color: #fefefe;
+
+  &__icon {
+    width: 18px;
+    height: 16px;
+    fill: #e76049;
+  }
+
+  &__text {
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 18px;
+  }
+
+  &__text-regular {
+    font-weight: 400;
+  }
+}

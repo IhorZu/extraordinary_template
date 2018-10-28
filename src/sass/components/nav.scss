@@ -1,0 +1,103 @@
+.nav {
+	position: absolute;
+	top: 78px;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	width: 70px;
+	min-height: calc(100vh - 78px);
+	background: #fff;
+	border-right: 1px solid $border_color;
+
+	@media screen and (max-width: 414px) {
+		display: none;
+	}
+
+	&__link {
+		position: relative;
+		height: 69px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-bottom: 1px solid $border_color;
+		color: #fff;
+		font: 700 14px $font_montserrat;
+		text-transform: uppercase;
+
+		&_settings {
+
+			@media screen and (min-height: 989px) {
+				margin-top: 291px;
+				border-top: 1px solid $border_color;
+			}
+		}
+	}
+
+	&__icon {
+		position: relative;
+		z-index: 1;
+		transition: fill $animation_3ms, transform $animation_3ms;
+
+		&_graphic {
+			fill: #14b9d6;
+		}
+
+		&_music {
+			fill: #e76049;
+		}
+
+		&_photography {
+			fill: #2eb398;
+		}
+
+		&_cinema {
+			fill: #90899c;
+		}
+
+		&_business {
+			fill: #5692b1;
+		}
+
+		&_travel {
+			fill: #f9b704;
+		}
+
+		&_fashion {
+			fill: #dd1787;
+		}
+
+		&_more {
+			fill: #e76049;
+		}
+
+		&_settings {
+			fill: #585858;
+		}
+
+		._no-touch .nav__link:hover & {
+			fill: #fff;
+			transform: scale(1.25);
+		}
+	}
+
+	&__tooltip {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		padding-left: 65px;
+		padding-right: 24px;
+		display: flex;
+		align-items: center;
+		background: #5692b1;
+		box-shadow: 0 2px 4px rgba(23,23,23, .17);
+		visibility: hidden;
+		opacity: 0;
+		transition: visibility $animation_3ms, opacity $animation_3ms;
+
+		._no-touch .nav__link:hover & {
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+}

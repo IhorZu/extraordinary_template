@@ -1,0 +1,26 @@
+{
+  "name": "extraordinary",
+  "version": "1.0.0",
+  "description": "Extraordinary template",
+  "author": "Ihor Zuikov",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.2.1",
+    "browser-sync": "^2.26.3",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlhint": "^2.2.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-include": "^2.3.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1",
+    "postcss-cli": "^6.0.1",
+    "sort-css-media-queries": "^1.4.1"
+  }
+}
